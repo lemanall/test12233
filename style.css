@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  background-color: #0e183e;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 400px;
+  background-color: #fff;
+  padding: 30px 15px;
+  border-radius: 15px;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+}
+.lessons {
+  margin-bottom: 15px;
+}
+
+.range {
+  position: relative;
+  width: 300px;
+  height: 15px;
+  background-color: #e8ebf4;
+  border: 1px solid #c3cde9;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.range::before {
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+}
+
+.math::before {
+  width: 156px;
+  background-color: #fc9860;
+}
+
+.chem::before {
+  width: 228px;
+  background-color: #608cfc;
+}
+
+.sci::before {
+  width: 63px;
+  background-color: #fc6086;
+}
+
